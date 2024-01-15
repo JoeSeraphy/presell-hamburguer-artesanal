@@ -1,0 +1,179 @@
+body {
+  font-family: "poppins", sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.container {
+  background: url("/asset/image/bg-desktop.webp") no-repeat center;
+  background-size: cover;
+  height: 100vh;
+}
+
+.container .header {
+  margin: 0 auto;
+  padding-top: 16px;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+}
+
+.container .header .logo {
+  margin: 0 auto;
+}
+
+.container .header .comece {
+  margin-top: 24px;
+}
+
+.container .hero {
+  max-width: 1440px;
+  margin: 32px auto;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  color: #fff;
+}
+
+.container .hero .text {
+  width: 470px;
+}
+
+.container .hero .text .title {
+  font-size: 28px;
+  font-weight: 600;
+  line-height: 42px;
+  margin-bottom: 24px;
+}
+
+.container .hero .text .title span {
+  color: #f12b2b;
+}
+
+.container .hero .text .description {
+  font-size: 17px;
+  line-height: 24px;
+  width: 460px;
+  margin-bottom: 48px;
+}
+
+.container .burguer {
+  width: 470px;
+}
+
+.button {
+  background: rgb(94, 216, 91);
+  background: linear-gradient(
+    273deg,
+    rgba(94, 216, 91, 1) 0%,
+    rgba(68, 171, 65, 1) 100%
+  );
+  padding: 19px 48px;
+  border-radius: 30px;
+  font-size: 28px;
+}
+
+.about {
+  margin: 84px auto;
+  max-width: 1440px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 84px;
+}
+
+.about .text {
+  width: 580px;
+}
+
+.about .text .title {
+  font-size: 25px;
+  font-weight: 600;
+  line-height: 38px;
+  margin-bottom: 24px;
+}
+
+.about .text .subtitle {
+  font-size: 17px;
+  margin-bottom: 64px;
+}
+
+.textlight {
+  font-size: 15px;
+  font-weight: 300;
+  letter-spacing: 4px;
+  margin-bottom: 16px;
+}
+
+.textRed {
+  color: #f12b2b;
+}
+
+.garantia {
+  max-width: 1440px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 84px;
+}
+
+.garantia .text {
+  width: 580px;
+}
+
+.garantia .text .title {
+  font-size: 25px;
+  font-weight: 600;
+  line-height: 38px;
+  margin-bottom: 24px;
+}
+
+.garantia .text .subtitle {
+  font-size: 17px;
+  margin-bottom: 64px;
+}
+
+.duvida {
+  max-width: 1440px;
+  margin: 0 auto;
+  text-align: center;
+  margin-bottom: 64px;
+}
+
+.duvida .flexIcons {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 24px;
+}
+
+.duvida .flexIcons .flexText {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 286px;
+}
+
+.footer {
+  background-color: #000;
+  padding: 32px 0px;
+}
+
+.footer .flex {
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+  font-size: 14px;
+  font-weight: 300;
+}
+.footer span {
+  font-size: 14px;
+  font-weight: 300;
+  display: flex;
+  justify-content: center;
+  color: #fff;
+}
