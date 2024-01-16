@@ -1,0 +1,140 @@
+@media (max-width: 426px) {
+  .button {
+    background: rgb(94, 216, 91);
+    background: linear-gradient(
+      273deg,
+      rgba(94, 216, 91, 1) 0%,
+      rgba(68, 171, 65, 1) 100%
+    );
+    padding: 18px 58px;
+    border-radius: 30px;
+    font-size: 16px;
+  }
+
+  .container {
+    background: url("/asset/image/bg-mobile.png") no-repeat center;
+    background-size: cover;
+    height: 100vh;
+  }
+
+  .container .header .logo {
+    width: 86px;
+  }
+
+  .container .header .comece {
+    width: 280px;
+  }
+
+  .container .hero {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+  }
+  .container .hero .text {
+    margin: 0 auto;
+    text-align: center;
+    width: 370px;
+  }
+  .container .hero .text .title {
+    font-size: 20px;
+    line-height: 24px;
+  }
+  .container .hero .text .description {
+    font-size: 16px;
+    line-height: 24px;
+    width: 370px;
+  }
+  .container .burguer {
+    display: none;
+  }
+
+  .burguer-mobile {
+    display: block;
+    width: 260px;
+    margin: 0 auto;
+  }
+  .about {
+    margin: 40px auto;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .about .text {
+    width: 370px;
+    text-align: center;
+  }
+
+  .about .text .title {
+    font-size: 20px;
+    line-height: 24px;
+    margin-top: 16px;
+  }
+
+  .about .text .subtitle {
+    font-size: 16px;
+    margin-bottom: 32px;
+  }
+
+  .imgburg-mobile {
+    display: block;
+    margin: 0 auto;
+    width: 340px;
+    margin-bottom: 16px;
+  }
+  .imgburg {
+    display: none;
+  }
+
+  .garantia {
+    margin: 60px auto;
+    width: 370px;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+  }
+  .garantia .text {
+    width: 370px;
+    text-align: center;
+  }
+
+  .garantia .text .title {
+    font-size: 20px;
+    line-height: 24px;
+    margin-top: 16px;
+  }
+
+  .garantia .text .subtitle {
+    font-size: 16px;
+    margin-bottom: 32px;
+  }
+
+  .selo-garantia {
+    width: 340px;
+    margin: 0 auto;
+    margin-bottom: 16px;
+  }
+
+  .duvida {
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 64px;
+  }
+  .duvida .title {
+    font-size: 18px;
+    line-height: 24px;
+    margin-bottom: 16px;
+  }
+
+  .duvida .flexIcons {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    margin-top: 24px;
+  }
+
+  .duvida .flexIcons .flexText {
+    font-size: 16px;
+  }
+}

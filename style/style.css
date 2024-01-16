@@ -63,6 +63,9 @@ a {
 .container .burguer {
   width: 470px;
 }
+.burguer-mobile {
+  display: none;
+}
 
 .button {
   background: rgb(94, 216, 91);
@@ -84,7 +87,9 @@ a {
   align-items: center;
   margin-top: 84px;
 }
-
+.imgburg-mobile {
+  display: none;
+}
 .about .text {
   width: 580px;
 }
