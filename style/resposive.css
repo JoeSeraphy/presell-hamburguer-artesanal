@@ -9,6 +9,7 @@
     padding: 18px 58px;
     border-radius: 30px;
     font-size: 16px;
+    width: 370px;
   }
 
   .container {
@@ -90,21 +91,15 @@
   .imgburg {
     display: none;
   }
-
-  .title {
-    font-size: 21px;
-  }
-
   .textlight {
     font-size: 13px;
   }
-
   .textRed {
     font-size: 21px;
   }
 
-  .subtext {
-    font-size: 16px;
+  .midia .text {
+    width: 370px;
   }
 
   .midia .flexImg {
@@ -139,6 +134,11 @@
   }
   .container2 .text .title2 {
     font-size: 21px;
+  }
+
+  .container2 .text .button {
+    font-size: 16px;
+    padding: 18px 48px;
   }
 
   .container3 .text {
