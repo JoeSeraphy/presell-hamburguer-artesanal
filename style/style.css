@@ -12,6 +12,27 @@ p {
   color: #272727;
 }
 
+.site {
+  margin: 0 auto;
+  max-width: 1024px;
+  display: grid;
+  align-items: center;
+  justify-content: center;
+}
+
+.site .seguro {
+  width: 300px;
+  margin: 100px auto;
+}
+
+.site .title1 {
+  margin: 0 auto;
+  font-size: 32px;
+  color: #272727;
+  width: 88%;
+  text-align: center;
+}
+
 .container {
   background: url("/asset/image/bgHamburguer-Artesanal.jpg") no-repeat center;
   background-size: cover;
