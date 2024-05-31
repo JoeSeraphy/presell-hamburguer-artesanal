@@ -3,8 +3,17 @@ body {
 }
 
 a {
+  margin: 1rem auto;
   text-decoration: none;
   color: #fff;
+  background-color: #34a853;
+  padding: 0.8rem 1rem;
+  border-radius: 0.5rem;
+  font-size: 1.5rem;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  font-weight: 700;
 }
 
 h2,
